@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(pwsh:*)",
+      "Bash(git:*)",
+      "Bash(mkdir -p \"C:/Users/dko00/.claude/skills/help-interview\")",
+      "Bash(mkdir -p \"C:/Users/dko00/.claude/skills/unity-expert\")",
+      "Bash(mkdir -p \"C:/Users/dko00/.claude/skills/csharp-expert\")",
+      "Bash(mkdir -p \"C:/Users/dko00/.claude/skills/os-expert\")",
+      "Bash(mkdir -p \"C:/Users/dko00/.claude/skills/algo-expert\")",
+      "Bash(cp \"C:/Users/dko00/.claude/commands/help-interview.md\" \"C:/Users/dko00/.claude/skills/help-interview/SKILL.md\")",
+      "Bash(cp \"C:/Users/dko00/.claude/commands/unity-expert.md\" \"C:/Users/dko00/.claude/skills/unity-expert/SKILL.md\")",
+      "Bash(cp \"C:/Users/dko00/.claude/commands/csharp-expert.md\" \"C:/Users/dko00/.claude/skills/csharp-expert/SKILL.md\")",
+      "Bash(cp \"C:/Users/dko00/.claude/commands/os-expert.md\" \"C:/Users/dko00/.claude/skills/os-expert/SKILL.md\")",
+      "Bash(cp \"C:/Users/dko00/.claude/commands/algo-expert.md\" \"C:/Users/dko00/.claude/skills/algo-expert/SKILL.md\")",
+      "Read(//tmp/**)",
+      "Bash(mkdir -p unity)",
+      "Bash(cp C:/Users/dko00/.claude/settings.json /tmp/UnityStudyWithClaude/claude-config/)",
+      "Bash(cp C:/Users/dko00/.claude/settings.local.json /tmp/UnityStudyWithClaude/claude-config/)",
+      "Bash(cp C:/Users/dko00/.claude/commands/*.md /tmp/UnityStudyWithClaude/claude-config/commands/)",
+      "Bash([ -f \"C:/Users/dko00/.claude/skills/$skill/SKILL.md\" ])",
+      "Bash(cp C:/Users/dko00/.claude/skills/__TRACKED_VAR__/SKILL.md /tmp/UnityStudyWithClaude/claude-config/skills/__TRACKED_VAR__/)"
+    ]
+  }
+}
